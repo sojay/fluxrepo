@@ -4,7 +4,7 @@ metadata:
   name: sample-app
   namespace: demo
 spec:
-  replicas: 2
+  replicas: 6
   selector:
     matchLabels:
       app: sample-app
@@ -13,8 +13,8 @@ spec:
       labels:
         app: sample-app
     spec:
-      # imagePullSecrets:
-      # - name: github-credentials
+      imagePullSecrets:
+      - name: flux-docker-auth
       containers:
       - name: sample-app
         image: ghcr.io/sojay/sample-app:latest
