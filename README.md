@@ -1,1 +1,1 @@
-# Flux GitOps Repository
+# Flux GitOps Sample Repository
