@@ -13,6 +13,8 @@ spec:
       labels:
         app: sample-app
     spec:
+      imagePullSecrets:
+      - name: github-credentials
       containers:
       - name: sample-app
         image: ghcr.io/sojay/sample-app:latest
