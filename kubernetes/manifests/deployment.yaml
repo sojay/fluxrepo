@@ -13,8 +13,8 @@ spec:
       labels:
         app: sample-app
     spec:
-      imagePullSecrets:
-      - name: flux-docker-auth
+      # imagePullSecrets:
+      # - name: flux-docker-auth
       containers:
       - name: sample-app
         image: ghcr.io/sojay/sample-app:latest

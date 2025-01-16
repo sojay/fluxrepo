@@ -8,5 +8,5 @@ spec:
   url: https://github.com/sojay/fluxrepo  # Replace with your repo URL
   ref:
     branch: release
-  # secretRef:
-  #   name: flux-docker-auth
+  secretRef:
+    name: flux-docker-auth
