@@ -9,4 +9,4 @@ spec:
   ref:
     branch: release
   secretRef:
-    name: github-credentials
+    name: flux-docker-auth
